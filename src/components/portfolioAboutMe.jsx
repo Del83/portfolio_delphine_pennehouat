@@ -14,7 +14,7 @@ export default function PortfolioAboutMe() {
       <p className="about-me-text">
         Après une belle carrière en tant que responsable planning d’une
         vingtaine de techniciens, <br />
-        j’ai décidé de suivre un de mes rêves, apprendre le codage informatique.{" "}
+        j’ai décidé de suivre un de mes rêves, apprendre le codage informatique.
         <br />
         <br />
         Passionnée par le monde de la tech, je me suis d'abord formée en

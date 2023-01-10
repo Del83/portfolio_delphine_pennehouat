@@ -1,26 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio_delphine_pennehouat/static/css/main.a2039f84.css",
-    "main.js": "/portfolio_delphine_pennehouat/static/js/main.defecf3a.js",
-    "static/media/toleArt.png": "/portfolio_delphine_pennehouat/static/media/toleArt.38746594dd40b06f9aa7.png",
-    "static/media/fisheye.png": "/portfolio_delphine_pennehouat/static/media/fisheye.2da75f15934edeeed308.png",
-    "static/media/sportSee.png": "/portfolio_delphine_pennehouat/static/media/sportSee.d701e3ab4d9c2b4070ae.png",
-    "static/media/ohmyfood.png": "/portfolio_delphine_pennehouat/static/media/ohmyfood.376b385e944839108bf6.png",
-    "static/media/lespetitsplats.png": "/portfolio_delphine_pennehouat/static/media/lespetitsplats.c5b65fc7660f89b99d13.png",
-    "static/media/HRnet.png": "/portfolio_delphine_pennehouat/static/media/HRnet.fe95863e09f31475b81a.png",
-    "static/media/kasa.png": "/portfolio_delphine_pennehouat/static/media/kasa.cf33db0be2b8242f115f.png",
-    "static/media/argentBank.png": "/portfolio_delphine_pennehouat/static/media/argentBank.07e606e0a70b79e69341.png",
+    "main.css": "/portfolio_delphine_pennehouat/static/css/main.b9346033.css",
+    "main.js": "/portfolio_delphine_pennehouat/static/js/main.9c998542.js",
+    "static/media/toleArt.png": "/portfolio_delphine_pennehouat/static/media/toleArt.f4c4ca4435a33ec6d9cf.png",
+    "static/media/fisheye.png": "/portfolio_delphine_pennehouat/static/media/fisheye.3f1367e51baed15ce64f.png",
+    "static/media/sportSee.png": "/portfolio_delphine_pennehouat/static/media/sportSee.737795284ab824bd097b.png",
+    "static/media/ohmyfood.png": "/portfolio_delphine_pennehouat/static/media/ohmyfood.2d95332716ead35b30fc.png",
+    "static/media/fisheye_modal.png": "/portfolio_delphine_pennehouat/static/media/fisheye_modal.4a2fe7c4574271fda353.png",
+    "static/media/toleArt_modal.png": "/portfolio_delphine_pennehouat/static/media/toleArt_modal.c07d5946bf2441d94be3.png",
+    "static/media/sportSee_modal.png": "/portfolio_delphine_pennehouat/static/media/sportSee_modal.69fd23e3a64fbd679908.png",
+    "static/media/ohmyfood_modal.png": "/portfolio_delphine_pennehouat/static/media/ohmyfood_modal.cd57978e6f86d1332330.png",
+    "static/media/lespetitsplats.png": "/portfolio_delphine_pennehouat/static/media/lespetitsplats.f81347cf285168c7a40a.png",
+    "static/media/HRnet.png": "/portfolio_delphine_pennehouat/static/media/HRnet.893bf5513aff9a18d27c.png",
+    "static/media/kasa.png": "/portfolio_delphine_pennehouat/static/media/kasa.f71d1fa757ef55207eb2.png",
+    "static/media/lespetitsplats_modal.png": "/portfolio_delphine_pennehouat/static/media/lespetitsplats_modal.f1a856e157eb82310daa.png",
+    "static/media/HRnet_modal.png": "/portfolio_delphine_pennehouat/static/media/HRnet_modal.af36518b06746f13f4b3.png",
+    "static/media/kasa_modal.png": "/portfolio_delphine_pennehouat/static/media/kasa_modal.45109fac7d1c6387a6d4.png",
+    "static/media/argentBank.png": "/portfolio_delphine_pennehouat/static/media/argentBank.2adf7ca048c5bdbab170.png",
+    "static/media/argentBank_modal.png": "/portfolio_delphine_pennehouat/static/media/argentBank_modal.3005a1f479fe882860ac.png",
     "static/media/AvatarMaker1.svg": "/portfolio_delphine_pennehouat/static/media/AvatarMaker1.c7a45ed94ec8537d80d7a7e140dcc424.svg",
     "static/media/WP.png": "/portfolio_delphine_pennehouat/static/media/WP.00b074a6e743752b7396.png",
     "static/media/react.png": "/portfolio_delphine_pennehouat/static/media/react.e91d70c6608439303299.png",
     "static/media/mongodb.png": "/portfolio_delphine_pennehouat/static/media/mongodb.1b70a002b92c44ec9d11.png",
     "static/media/woocommerce.png": "/portfolio_delphine_pennehouat/static/media/woocommerce.9f4cb3624f779b9c3869.png",
     "index.html": "/portfolio_delphine_pennehouat/index.html",
-    "main.a2039f84.css.map": "/portfolio_delphine_pennehouat/static/css/main.a2039f84.css.map",
-    "main.defecf3a.js.map": "/portfolio_delphine_pennehouat/static/js/main.defecf3a.js.map"
+    "main.b9346033.css.map": "/portfolio_delphine_pennehouat/static/css/main.b9346033.css.map",
+    "main.9c998542.js.map": "/portfolio_delphine_pennehouat/static/js/main.9c998542.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2039f84.css",
-    "static/js/main.defecf3a.js"
+    "static/css/main.b9346033.css",
+    "static/js/main.9c998542.js"
   ]
 }

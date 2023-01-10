@@ -7,14 +7,9 @@ import { useSelector, useDispatch } from "react-redux";
 import "../style/App.css";
 
 export default function index() {
- 
   return (
     <div className="App">
-      
-      <div className="game-index">
-
-      </div>
-      
+      <div className="game-index"></div>
     </div>
   );
 }

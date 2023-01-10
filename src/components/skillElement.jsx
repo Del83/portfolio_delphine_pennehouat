@@ -16,7 +16,7 @@ export default function SkillElement({
         <img src={image} className="logo-languages" alt={alt}></img>
       </div>
 
-      <figcaption>
+      <figcaption className="skills-element-retail">
         <h4 className="skills-element-name">{skillName}</h4>
         <div>
           <img src={level1} className="skills-star" alt="level star"></img>

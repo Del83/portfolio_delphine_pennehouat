@@ -17,7 +17,7 @@ export default function PortfolioAboutMe() {
         j’ai décidé de suivre un de mes rêves, apprendre le codage informatique.
         <br />
         <br />
-        Passionnée par le monde de la tech, je me suis d'abord formée en
+        Passionnée par le monde du web depuis AOL, je me suis d'abord formée en
         autodidacte au <br />
         CMS Wordpress pour la création de la « boutique.tole-art.fr ». <br />
         <br />

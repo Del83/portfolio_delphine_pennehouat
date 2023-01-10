@@ -19,7 +19,7 @@ nav {
 a {
   text-decoration: none;  
   font-weight: bolder;
-  color: #554555; 
+  color: #7A297B; 
   text-shadow: 0 0 18px rgba(0, 0, 0, 0.1)
 }
 
@@ -299,14 +299,13 @@ figure {
   margin: 0;
 }
 
-figcaption {
+.skills-element-retail {
   /* top: 50%;
   left: 20px;
   right: 20px;
   position: absolute; */
   opacity: 0;
   z-index: 3;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -339,11 +338,10 @@ figcaption {
 }
 
 /* -------------------- PROJECTS CONTAINER -------------------- */ 
+
 .projects {
   position: relative;
   bottom: 20vh;
-  color: #7A297B; 
-  font-size: 40px;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -355,6 +353,12 @@ figcaption {
   padding-bottom: 80px;
   padding-top: 80px;
   border-radius: 10px;
+  border: #7A297B 0.5px solid;
+}
+
+.projects-title {
+  margin-top: 80px;
+  color: #7A297B;;
 }
 
 .projects-ctn {
@@ -363,89 +367,111 @@ figcaption {
   flex-direction: column;
 }
 
-.projects-title {
-  margin-top: 80px;
-}
+/* .projects-box */ 
 
 .projects-list {
   display: flex;
-  gap: 50px;
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
+  color: #7A297B;
 }
 
 .projects-element {
-  box-shadow: 3px 3px 10px grey;
-  height: 300px;
-  border-radius: 10px;
-
+  width: 320px;  
+  height: 320px;
+  border-radius: 5px;
   position: relative;
   overflow: hidden;
-  margin: 10px;
-  width: 300px;
-  color: #000000;
+  margin: 3px;
+  
   text-align: center;
-  -webkit-perspective: 50em;
-  perspective: 50em;
-  transition-property: all;
-  transition-duration: 0.2s;
-  transition-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53);
-  transform-style: preserve-3d;
-  border-radius: 10px;
+  /*transition: 0.2s;
+  color: #000000;
+  animation: fade-in 1s ease-out both;
+  transition: all 600ms ease-in-out 600ms;
+   animation: projects-element 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; */
 }
 
-.projects-element-background {
-  background-color: rgba(121,41,123,0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  height: 300px;
-  width: 300px;
-}
-
-.projets-element-background:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: 0.8s;
-  mix-blend-mode: multiply;
-}
-
-.projects-element:hover .projects-element-background:before {
-  opacity: 1;
-}
-
-.projects-element:hover figcaption {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
-.projects-element:hover .projects-element-image{
-  opacity: 0;
-}
-
-.projects-element:hover { 
-  transform: rotateY(0deg) scale(1.05);
-  z-index: 1;
-  box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+.projects-element-image, .projects-element-modal {
+  width: 320px;
+  height: 320px;
 }
 
 .projects-element-image {
-  width: 300px;
-  height: 300px;
+  transition: all 1s ease-out;
+}
+
+.projects-elements-retail {
+  opacity: 0;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 320px;
+  width: 320px;
+  transition: all 0.5s ease-out;
+  
+}
+
+.projects-element-retail-ctn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-element-retail-techno-ctn {
+  width: 270px;
+  height: 175px;
+  background-color: white;
+  font-size: 12px;
+  text-decoration: none;
+  /* color: #554555; */
+  text-shadow: 0 0 18px rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.projects-element-retail-links {
+  width: 270px;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  
+}
+
+.projects-element-retail-techno {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .projects-element-link {
-  font-size: 14px;
+  font-size: 12px;
+  
 }
 
+.projects-element:hover .projects-element-image {
+  opacity: 0;
+}
 
+.projects-element:hover .projects-elements-retail {
+  opacity: 1;
+}
 
 
 /* -------------------- FOOTER -------------------- */ 
